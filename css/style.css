@@ -53,9 +53,13 @@ body {
 }
 
 /* feature */
+
 .feature img {
-  height: 300px;
-  overflow: hidden;
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: 100% 15%;
+  border-radius: 40px;
 }
 
 .nopadding {
@@ -91,6 +95,7 @@ body {
 .portfolio img {
   height: 250px;
   width: 100%;
+  border-radius: 30px;
 }
 
 
