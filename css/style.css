@@ -84,6 +84,11 @@ body {
 }
 
 /* Portfolio */
+.portfolio {
+  display: grid;
+
+}
+
 .portfolio .heading {
   font-size: 35px;
   text-transform: uppercase;
@@ -98,37 +103,7 @@ body {
   border-radius: 30px;
 }
 
-
-.photoshop h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  transition: 0.5s;
-}
-
-.photoshop h1:hover {
-  opacity: 0;
-  transition: 0.8s;
-}
-
-
-.photos h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  transition: 0.5s;
-}
-
-.photos h1:hover {
-  opacity: 0;
-  transition: 0.8s;
-}
-
-.web h1 {
+.portfolio h2 {
   position: absolute;
   text-align: center;
   top: 50%;
@@ -136,13 +111,19 @@ body {
   transform: translate(-50%, -50%);
   color: white;
   transition: 0.5s;
+  font-size: 40px;
+  cursor: pointer;
 }
 
-.web h1:hover {
+.portfolio h2:hover {
   opacity: 0;
   transition: 0.8s;
+  cursor: pointer;
 }
 
+.web img {
+  opacity: 80%;
+}
 
 .portfolio .last-img {
   margin-bottom: 20px;
@@ -210,11 +191,11 @@ footer .copyright {
   transition: 0.7s;
 }
 
-footer .copyright a{
+footer .copyright a {
   transition: 0.7s;
   color: #42484c;
 }
-footer .copyright a:hover{
+footer .copyright a:hover {
   text-decoration: none;
   color: white;
   transition: 0.7s;
@@ -223,7 +204,6 @@ footer .copyright a:hover{
 footer .contact {
   display: grid;
 }
-
 
 .navbar {
   background-color: #41484b;
@@ -236,7 +216,11 @@ footer .contact {
   transition: 0.5s;
 }
 
-.navbar-brand:hover{
+.navbar-brand:hover {
   opacity: 0.3;
   transition: 0.5s;
+}
+
+a {
+  cursor: pointer;
 }
