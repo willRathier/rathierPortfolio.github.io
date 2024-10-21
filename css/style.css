@@ -129,6 +129,11 @@ body {
   margin-bottom: 20px;
 }
 
+.animation img {
+  object-fit: cover;
+
+}
+
 /* Call to Action */
 .call-top-action {
   background-color: #42484c;
