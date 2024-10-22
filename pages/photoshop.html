@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <title>Photoshop</title>
-    <link rel="icon" href="../images/favicon.png">
+    <link rel="icon" href="../images/favicon.png" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
@@ -25,13 +25,22 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand" onclick="history.back()">Retour au site</a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li>
+            <a onclick="history.back()"
+              ><img src="../images/svg/house-solid.svg" alt="house" /><span
+                >Retour</span
+              ></a
+            >
+          </li>
+        </ul>
       </nav>
+      <div class="header-photoshop">
+        <h1>Photoshop</h1>
+      </div>
     </header>
-    <main>
-      
-    </main>
+    <main></main>
     <footer>
       <ul class="in-line">
         <li>

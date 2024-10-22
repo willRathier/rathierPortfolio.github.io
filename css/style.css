@@ -386,20 +386,85 @@ footer .contact {
   display: grid;
 }
 
-/* PAGE WEB CSS START*/
-.header-img {
+.header-photo {
+  text-align: center;
+  height: 200px;
+  margin-bottom: 70px;
+  background-image: url(../images/papillon.JPG);
+}
+
+.header-photo h1 {
+  margin: 0;
+  padding: 50px;
+  font-size: 100px;
+}
+
+.header-video {
+  text-align: center;
+  height: 200px;
+  margin-bottom: 70px;
+  background-image: url(../images/video.jpg);
+}
+
+.header-video h1 {
+  margin: 0;
+  padding: 50px;
+  font-size: 100px;
+}
+
+.header-photoshop {
+  text-align: center;
+  height: 200px;
+  margin-bottom: 70px;
+  background-image: url(../images/animation_3d.png);
+}
+
+.header-photoshop h1 {
+  margin: 0;
+  padding: 50px;
+  font-size: 100px;
+}
+
+.header-web {
   text-align: center;
   height: 200px;
   margin-bottom: 70px;
   background-image: url(../images/html_code.jpg);
 }
 
-.header-img h1 {
+.header-web h1 {
   margin: 0;
   padding: 50px;
   font-size: 100px;
 }
 
+.header-jeu {
+  text-align: center;
+  height: 200px;
+  margin-bottom: 70px;
+  background-image: url(../images/gaming_retro.jpg);
+}
+
+.header-jeu h1 {
+  margin: 0;
+  padding: 50px;
+  font-size: 100px;
+}
+
+.header-animation {
+  text-align: center;
+  height: 200px;
+  margin-bottom: 70px;
+  background-image: url(../images/rayman.PNG);
+}
+
+.header-animation h1 {
+  margin: 0;
+  padding: 50px;
+  font-size: 100px;
+}
+
+/* PAGE WEB CSS START*/
 .web_grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
