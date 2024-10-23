@@ -60,7 +60,6 @@ h1 {
 
 .header-text h1 {
   font-size: 60px;
-  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -392,9 +391,6 @@ footer .contact {
   display: grid;
 }
 
-footer .phone {
-  color: var(--font-color);
-}
 footer .courriel a {
   color: var(--link-color);
   text-decoration: none;
