@@ -32,17 +32,20 @@ body {
   background-color: rgb(176, 176, 176);
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 h1 {
   color: var(--font-color);
 }
 
 /* Heder */
 #homeFullScreen {
-  width: 100%;
+  width: 110%;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  background-position: center 15%;
 }
 
 #homeFullScreen {
