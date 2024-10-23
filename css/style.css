@@ -64,6 +64,7 @@ h1 {
 .header-text h1 {
   font-size: 60px;
   text-transform: uppercase;
+  color: #fff;
 }
 
 .header-text .vertical-line {
@@ -497,17 +498,29 @@ footer .courriel a:hover {
 .hero-text {
   grid-area: 1 / 2 / 2 / 3;
 }
-.div3 {
+.optimisation-text {
   grid-area: 2 / 1 / 3 / 2;
 }
-.div4 {
+.optimisation_web {
   grid-area: 2 / 2 / 3 / 3;
 }
-.div5 {
+.fivars {
   grid-area: 3 / 1 / 4 / 2;
 }
-.div6 {
+.difivars-textv6 {
   grid-area: 3 / 2 / 4 / 3;
+}
+
+.web_grid h2 {
+  color: var(--font-color);
+  font-weight: 700;
+  text-align: center;
+}
+
+.web_grid p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
 }
 
 .vous-etes-heros {
@@ -515,8 +528,28 @@ footer .courriel a:hover {
 }
 
 .hero-text {
-  font-size: 30px;
-  font-weight: 700;
+  align-self: center;
+  justify-self: center;
+  padding: 30px;
+}
+
+.optimisation_web {
+  align-self: center;
+  justify-self: center;
+}
+
+.optimisation-text {
+  align-self: center;
+  justify-self: center;
+  padding: 30px;
+}
+
+.fivars {
+  align-self: center;
+  justify-self: center;
+}
+
+.fivars-text {
   align-self: center;
   justify-self: center;
   padding: 30px;
