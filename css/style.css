@@ -507,8 +507,6 @@ footer .courriel a:hover {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  grid-column-gap: 30px;
-  grid-row-gap: 20px;
 }
 
 .vous-etes-heros {
@@ -539,17 +537,18 @@ footer .courriel a:hover {
 .web_grid p {
   text-align: center;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .vous-etes-heros {
-  padding: 30px;
+  padding: 10px;
 }
 
 .hero-text {
   align-self: center;
   justify-self: center;
-  padding: 30px;
+  padding: 10px;
+  margin: 20px;
 }
 
 .optimisation_web {
@@ -560,7 +559,8 @@ footer .courriel a:hover {
 .optimisation-text {
   align-self: center;
   justify-self: center;
-  padding: 30px;
+  padding: 10px;
+  margin: 20px;
 }
 
 .fivars {
@@ -571,7 +571,8 @@ footer .courriel a:hover {
 .fivars-text {
   align-self: center;
   justify-self: center;
-  padding: 30px;
+  padding: 10px;
+  margin: 20px;
 }
 /* PAGE WEB CSS END */
 
