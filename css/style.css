@@ -357,6 +357,7 @@ footer {
   text-align: center;
   margin-top: 30px;
   padding: 10px;
+  width: 1920px;
 }
 
 footer ul {
@@ -440,6 +441,7 @@ footer .courriel a:hover {
 
 .header-photoshop {
   text-align: center;
+  width: 1920px;
   height: 200px;
   margin-bottom: 70px;
   background-image: url(../images/animation_3d.png);
@@ -453,7 +455,7 @@ footer .courriel a:hover {
 
 .header-web {
   text-align: center;
-  width: 100%;
+  width: 1920px;
   height: 200px;
   margin-bottom: 70px;
   background-image: url(../images/html_code.jpg);
@@ -467,6 +469,7 @@ footer .courriel a:hover {
 
 .header-jeu {
   text-align: center;
+  width: 1920px;
   height: 200px;
   margin-bottom: 70px;
   background-image: url(../images/gaming_retro.jpg);
@@ -480,6 +483,7 @@ footer .courriel a:hover {
 
 .header-animation {
   text-align: center;
+  width: 1920px;
   height: 200px;
   margin-bottom: 70px;
   background-image: url(../images/rayman.PNG);
