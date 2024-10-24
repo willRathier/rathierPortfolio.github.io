@@ -453,6 +453,7 @@ footer .courriel a:hover {
 
 .header-web {
   text-align: center;
+  width: 100%;
   height: 200px;
   margin-bottom: 70px;
   background-image: url(../images/html_code.jpg);
