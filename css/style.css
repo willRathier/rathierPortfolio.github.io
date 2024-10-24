@@ -22,7 +22,7 @@
 
 html {
   scroll-behavior: smooth;
-  width: 1920px;
+  width: 100vw;
 }
 
 body {
@@ -350,6 +350,11 @@ div[role="progressbar"]::after {
   color: var(--font-color);
 }
 
+.comptences h2 {
+  justify-self: center;
+  text-align: center;
+}
+
 /* Mes compétences -- END */
 
 /* Footer */
@@ -358,7 +363,6 @@ footer {
   text-align: center;
   margin-top: 30px;
   padding: 10px;
-  width: 1920px;
 }
 
 footer ul {
@@ -417,6 +421,7 @@ footer .courriel a:hover {
 .header-photo {
   text-align: center;
   height: 200px;
+  width: 100vw;
   margin-bottom: 70px;
   background-image: url(../images/papillon.JPG);
 }
@@ -430,6 +435,7 @@ footer .courriel a:hover {
 .header-video {
   text-align: center;
   height: 200px;
+  width: 100vw;
   margin-bottom: 70px;
   background-image: url(../images/video.jpg);
 }
@@ -442,8 +448,8 @@ footer .courriel a:hover {
 
 .header-photoshop {
   text-align: center;
-  width: 1920px;
   height: 200px;
+  width: 100vw;
   margin-bottom: 70px;
   background-image: url(../images/animation_3d.png);
 }
@@ -456,8 +462,8 @@ footer .courriel a:hover {
 
 .header-web {
   text-align: center;
-  width: 1920px;
   height: 200px;
+  width: 100vw;
   margin-bottom: 70px;
   background-image: url(../images/html_code.jpg);
 }
@@ -470,8 +476,8 @@ footer .courriel a:hover {
 
 .header-jeu {
   text-align: center;
-  width: 1920px;
   height: 200px;
+  width: 100vw;
   margin-bottom: 70px;
   background-image: url(../images/gaming_retro.jpg);
 }
@@ -484,8 +490,8 @@ footer .courriel a:hover {
 
 .header-animation {
   text-align: center;
-  width: 1920px;
   height: 200px;
+  width: 100vw;
   margin-bottom: 70px;
   background-image: url(../images/rayman.PNG);
 }
