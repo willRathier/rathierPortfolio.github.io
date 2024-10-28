@@ -502,6 +502,16 @@ footer .courriel a:hover {
   font-size: 100px;
 }
 
+
+/* Section Logiciels -- START */
+.logiciel {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+/* Section Logiciels -- END */
+
+
 /* PAGE WEB CSS START*/
 .web_grid {
   display: grid;
