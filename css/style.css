@@ -41,7 +41,11 @@ h1 {
   color: var(--font-color);
 }
 
-/* Heder */
+/* Header */
+header {
+  width: 100vw;
+}
+
 #homeFullScreen {
   width: 110%;
   background-repeat: no-repeat;
@@ -282,7 +286,7 @@ h1 {
   font-size: 25px;
 }
 
-.parent {
+.logiciel_grid {
   width: 50%;
   margin: auto;
   display: grid;
@@ -502,7 +506,6 @@ footer .courriel a:hover {
   font-size: 100px;
 }
 
-
 /* Section Logiciels -- START */
 .logiciel {
   width: 100%;
@@ -510,7 +513,6 @@ footer .courriel a:hover {
   padding-top: 30px;
 }
 /* Section Logiciels -- END */
-
 
 /* PAGE WEB CSS START*/
 .web_grid {
