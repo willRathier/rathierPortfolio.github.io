@@ -286,7 +286,7 @@ header {
   font-size: 25px;
 }
 
-.logiciel_grid {
+.parent {
   width: 50%;
   margin: auto;
   display: grid;
@@ -361,6 +361,53 @@ div[role="progressbar"]::after {
 
 /* Mes compétences -- END */
 
+/* -- logiciels -- START */
+.logiciel_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 10px;
+}
+
+.logiel-1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.logiel-2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.logiel-3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.logiel-4 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.logiel-5 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.logiel-6 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.logiel-7 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.logiel-8 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+.logiel-9 {
+  grid-area: 3 / 3 / 4 / 4;
+}
+.logiel-10 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+.logiel-11 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+.logiel-12 {
+  grid-area: 4 / 3 / 5 / 4;
+}
+/* -- logiciels -- END */
+
 /* Footer */
 footer {
   background-color: rgb(110, 110, 110);
@@ -425,7 +472,6 @@ footer .courriel a:hover {
 .header-photo {
   text-align: center;
   height: 200px;
-  width: 100vw;
   margin-bottom: 70px;
   background-image: url(../images/papillon.JPG);
 }
@@ -439,7 +485,6 @@ footer .courriel a:hover {
 .header-video {
   text-align: center;
   height: 200px;
-  width: 100vw;
   margin-bottom: 70px;
   background-image: url(../images/video.jpg);
 }
@@ -453,7 +498,6 @@ footer .courriel a:hover {
 .header-photoshop {
   text-align: center;
   height: 200px;
-  width: 100vw;
   margin-bottom: 70px;
   background-image: url(../images/animation_3d.png);
 }
@@ -467,7 +511,6 @@ footer .courriel a:hover {
 .header-web {
   text-align: center;
   height: 200px;
-  width: 100vw;
   margin-bottom: 70px;
   background-image: url(../images/html_code.jpg);
 }
@@ -481,7 +524,6 @@ footer .courriel a:hover {
 .header-jeu {
   text-align: center;
   height: 200px;
-  width: 100vw;
   margin-bottom: 70px;
   background-image: url(../images/gaming_retro.jpg);
 }
@@ -495,7 +537,6 @@ footer .courriel a:hover {
 .header-animation {
   text-align: center;
   height: 200px;
-  width: 100vw;
   margin-bottom: 70px;
   background-image: url(../images/rayman.PNG);
 }
