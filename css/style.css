@@ -362,6 +362,20 @@ div[role="progressbar"]::after {
 /* Mes compétences -- END */
 
 /* -- logiciels -- START */
+.logiciel {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  text-align: center;
+}
+.logiciel_grid img {
+  width: 20%;
+}
+
+.logiel-5 img {
+  width: 40%;
+}
+
 .logiciel_grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -546,14 +560,6 @@ footer .courriel a:hover {
   padding: 50px;
   font-size: 100px;
 }
-
-/* Section Logiciels -- START */
-.logiciel {
-  width: 100%;
-  text-align: center;
-  padding-top: 30px;
-}
-/* Section Logiciels -- END */
 
 /* PAGE WEB CSS START*/
 .web_grid {
