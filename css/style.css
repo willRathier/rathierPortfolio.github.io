@@ -363,7 +363,8 @@ div[role="progressbar"]::after {
 
 /* -- logiciels -- START */
 .logiciel {
-  width: 100%;
+  margin: auto;
+  width: 70%;
   text-align: center;
   padding-top: 30px;
   text-align: center;
@@ -371,8 +372,16 @@ div[role="progressbar"]::after {
 .logiciel_grid img {
   width: 20%;
 }
-
+.logiel-4 img {
+  width: 25%;
+}
 .logiel-5 img {
+  width: 40%;
+}
+.logiel-8 h1 {
+  font-size: 27px;
+}
+.logiel-8 img {
   width: 40%;
 }
 
@@ -634,6 +643,98 @@ footer .courriel a:hover {
   margin: 20px;
 }
 /* PAGE WEB CSS END */
+
+/* -- PAGE VIDEO CSS START -- */
+.intégration {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+  gap: 40px;
+}
+
+.projet-final {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.autre-img {
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.video_page {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.video_page p {
+  text-align: center;
+  font-size: 18px;
+  width: 50%;
+}
+
+.video_stop-motion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin: 10px;
+}
+
+.video_polychrome {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin: 10px;
+}
+
+.video_emotions {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin: 10px;
+}
+
+.video_emotions p {
+  width: 50%;
+}
+
+/* -- PAGE VIDEO CSS END -- */
+
+/* -- PAGE JEU -- START -- */
+.jeu_2d {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jeu_2d p {
+  font-size: 30px;
+  margin: 20px;
+}
+
+/* -- PAGE JEU -- END -- */
 
 .changement {
   margin: auto;
