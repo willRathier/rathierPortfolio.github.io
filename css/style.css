@@ -490,6 +490,7 @@ footer .courriel a:hover {
 }
 
 .header-photo {
+  overflow: hidden;
   text-align: center;
   height: 200px;
   margin-bottom: 70px;
@@ -503,6 +504,7 @@ footer .courriel a:hover {
 }
 
 .header-video {
+  overflow: hidden;
   text-align: center;
   height: 200px;
   margin-bottom: 70px;
@@ -516,6 +518,7 @@ footer .courriel a:hover {
 }
 
 .header-photoshop {
+  overflow: hidden;
   text-align: center;
   height: 200px;
   margin-bottom: 70px;
@@ -529,6 +532,7 @@ footer .courriel a:hover {
 }
 
 .header-web {
+  overflow: hidden;
   text-align: center;
   height: 200px;
   margin-bottom: 70px;
@@ -542,6 +546,7 @@ footer .courriel a:hover {
 }
 
 .header-jeu {
+  overflow: hidden;
   text-align: center;
   height: 200px;
   margin-bottom: 70px;
@@ -555,6 +560,7 @@ footer .courriel a:hover {
 }
 
 .header-animation {
+  overflow: hidden;
   width: 100%;
   text-align: center;
   height: 200px;
@@ -607,34 +613,60 @@ footer .courriel a:hover {
 }
 
 .vous-etes-heros {
-  padding: 10px;
+  overflow: auto;
+  padding: 20px;
+  height: 60vh;
+  width: 50vw;
+}
+ 
+.vous-etes-heros iframe {
+  width: 40vw;
+  height: 50vh;
 }
 
+
 .hero-text {
+  overflow: auto;
   align-self: center;
   justify-self: center;
   padding: 10px;
   margin: 20px;
+  width: 20vw;
+  overflow: hidden;
 }
 
 .optimisation_web {
+  overflow: auto;
   align-self: center;
   justify-self: center;
+}
+
+.optimisation_web video {
+  width: 40vw;
+  height: 50vh;
 }
 
 .optimisation-text {
+  overflow: auto;
   align-self: center;
   justify-self: center;
   padding: 10px;
-  margin: 20px;
+  margin: 10px;
 }
 
 .fivars {
+  overflow: auto;
   align-self: center;
   justify-self: center;
 }
 
+.fivars video {
+  width: 40vw;
+  height: 50vh;
+}
+
 .fivars-text {
+  overflow: auto;
   align-self: center;
   justify-self: center;
   padding: 10px;
